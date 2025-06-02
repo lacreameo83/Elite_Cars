@@ -8,35 +8,170 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   
-
+  <style>
+    
+    @media only screen and (max-width: 600px) {
+      .main-table {
+        width: 100% !important;
+        padding: 5px !important;
+      }
+      
+      .header-logo {
+        width: 150px !important;
+      }
+      
+      .car-image {
+        width: 100% !important;
+        height: auto !important;
+      }
+      
+      .content-padding {
+        padding: 15px !important;
+      }
+      
+      .highlight-box {
+        padding: 12px !important;
+        font-size: 13px !important;
+        line-height: 18px !important;
+      }
+      
+      .main-heading {
+        font-size: 24px !important;
+        padding: 15px !important;
+      }
+      
+      /* Footer responsive styles */
+      .footer-table {
+        width: 100% !important;
+      }
+      
+      .footer-column {
+        width: 100% !important;
+        max-width: 100% !important;
+        display: block !important;
+        padding: 15px 10px !important;
+        text-align: center !important;
+      }
+      
+      .footer-logo {
+        width: 80px !important;
+        margin: 0 auto 15px auto !important;
+      }
+      
+      .footer-description {
+        font-size: 10px !important;
+        line-height: 14px !important;
+        text-align: center !important;
+        margin-bottom: 20px !important;
+      }
+      
+      .quick-links-title {
+        margin: 0 0 15px 0 !important;
+        text-align: center !important;
+      }
+      
+      .quick-links {
+        font-size: 10px !important;
+        line-height: 16px !important;
+        text-align: center !important;
+        margin: 0 !important;
+      }
+      
+      .social-section {
+        margin-top: 20px !important;
+      }
+      
+      .social-title {
+        text-align: center !important;
+        margin-bottom: 15px !important;
+      }
+      
+      .social-icons {
+        text-align: center !important;
+        margin-bottom: 15px !important;
+      }
+      
+      .social-icon {
+        width: 24px !important;
+        height: 24px !important;
+        line-height: 24px !important;
+        margin: 0 2px !important;
+      }
+      
+      .social-icon img {
+        width: 10px !important;
+      }
+      
+      .footer-links {
+        text-align: center !important;
+        font-size: 10px !important;
+      }
+      
+      .footer-links a {
+        display: inline-block !important;
+        margin: 5px 10px !important;
+        border-right: none !important;
+        padding-right: 0 !important;
+      }
+    }
+    
+    
+    @media only screen and (max-width: 480px) {
+      .outer-container {
+        padding: 10px !important;
+      }
+      
+      .main-table {
+        padding: 0 !important;
+      }
+      
+      .content-padding {
+        padding: 10px !important;
+      }
+      
+      .highlight-box {
+        padding: 10px !important;
+        border-radius: 15px !important;
+      }
+      
+      .main-heading {
+        font-size: 20px !important;
+        padding: 10px !important;
+      }
+      
+      .footer-column {
+        padding: 10px 5px !important;
+      }
+    }
+  </style>
 </head>
 <body style="margin: 0; padding: 0; background-color: #ffffff; font-family: 'Montserrat', sans-serif; font-weight: 400;">
-  <center style="width:100%;table-layout:fixed;background-color:#ffffff;padding:20px;">
-    <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="max-width:600px;margin:auto;background:#ffffff;padding: 10px;border-spacing: 0; border-collapse: collapse;">
+  <center class="outer-container" style="width:100%;table-layout:fixed;background-color:#ffffff;padding:20px;">
+    <table class="main-table" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="max-width:600px;margin:auto;background:#ffffff;padding: 10px;border-spacing: 0; border-collapse: collapse;">
       <tr>
         <td align="center" style="padding:20px;">
-          <img src="https://mcusercontent.com/f7bb64595fc5877472bcdba04/images/87dc91ff-2743-8f7c-a5d5-28928d63acc4.png" alt="Elite Cars Logo" width="200" style="border: 0; display: block;">
+          <img class="header-logo" src="https://mcusercontent.com/f7bb64595fc5877472bcdba04/images/87dc91ff-2743-8f7c-a5d5-28928d63acc4.png" alt="Elite Cars Logo" width="200" style="border: 0; display: block;">
         </td>
       </tr>
       <tr>
         <td align="center">
-          <img src="images/redcar.png" alt="Red Car" width="100%" style="border: 0; display: block;">
+          <img class="car-image" src="images/redcar.png" alt="Red Car" width="100%" style="border: 0; display: block;">
         </td>
       </tr>
       <tr>
-        <td style="padding:20px;text-align:center;font-size:14px;line-height:20px;color:#000000;">
+        <td class="content-padding" style="padding:20px;text-align:center;font-size:14px;line-height:20px;color:#000000;">
           <p style="margin: 0 0 2px 0;">Dear {{customer_name}},</p>
           <p style="margin: 0;">Thank you for your interest in The Elite Cars, a subsidiary of Elite Group Holding with decades of automotive experience in the region, specializing in luxury cars.</p>
         </td>
       </tr>
       <tr>
-        <td style="padding:15px;background-color:#FFDEE0;text-align:center;border-radius:25px;font-size:14px;line-height:20px;color:#000000;font-weight: 400;">
+        <td class="highlight-box" style="padding:15px;background-color:#FFDEE0;text-align:center;border-radius:25px;font-size:14px;line-height:20px;color:#000000;font-weight: 400;">
           <p style="margin-bottom: 10px;">We received your inquiry regarding <strong style="font-weight: 700;">2015 ASTON MARTIN VANQUISH COUPE</strong> and tried to contact you but were unable to connect.</p>
           <p>If you would like to speak with one of our expert customer representatives, please call <strong style="font-weight: 700;">800-535-483</strong> or reply to this message.</p>
         </td>
       </tr>
       <tr>
-        <td style="padding:20px;text-align:center;font-size:31px;font-weight:600;font-family: 'Barlow', sans-serif;">
+        <td class="main-heading" style="padding:20px;text-align:center;font-size:31px;font-weight:600;font-family: 'Barlow', sans-serif;">
           We look forward to seeing you soon!
         </td>
       </tr>
@@ -47,17 +182,20 @@
       </tr>
       <tr>
         <td style="padding:20px 10px;">
-          <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="border-spacing: 0; border-collapse: collapse;">
+          <table class="footer-table" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="border-spacing: 0; border-collapse: collapse;">
             <tr>
-              <td style="width:33.33%; max-width:200px; vertical-align:top; padding:10px;">
-                <img src="https://mcusercontent.com/f7bb64595fc5877472bcdba04/images/87dc91ff-2743-8f7c-a5d5-28928d63acc4.png" alt="Elite Cars Logo" width="100" style="margin-bottom:10px; border: 0; display: block;">
-                <p style="font-size:9px;line-height:12px;color:#000000;margin:0;">
+              <!-- Company Info Column -->
+              <td class="footer-column" style="width:33.33%; max-width:200px; vertical-align:top; padding:10px;">
+                <img class="footer-logo" src="https://mcusercontent.com/f7bb64595fc5877472bcdba04/images/87dc91ff-2743-8f7c-a5d5-28928d63acc4.png" alt="Elite Cars Logo" width="100" style="margin-bottom:10px; border: 0; display: block;">
+                <p class="footer-description" style="font-size:9px;line-height:12px;color:#000000;margin:0;">
                     The Elite Cars, a subsidiary of Elite Group Holding, is a leading luxury car dealership in Dubai, UAE. With decades of automotive experience in the region, we specialize in providing an exceptional selection of luxury and exotic vehicles, along with unparalleled customer service.
                 </p>
               </td>
-              <td style="width:33.33%; max-width:200px; vertical-align:top; padding:10px;">
-                <p style="font-family: 'Barlow', sans-serif; font-size:10px;font-weight:600;margin:15px 0px 0px; line-height: 100%;">Quick Links:</p>
-                <p style="font-size:9px;line-height:14px;margin:0;margin-top: 30px;">
+              
+              <!-- Quick Links Column -->
+              <td class="footer-column" style="width:33.33%; max-width:200px; vertical-align:top; padding:10px;">
+                <p class="quick-links-title" style="font-family: 'Barlow', sans-serif; font-size:10px;font-weight:600;margin:15px 0px 0px; line-height: 100%;">Quick Links:</p>
+                <p class="quick-links" style="font-size:9px;line-height:14px;margin:0;margin-top: 30px;">
                   <a href="https://theelitecars.com/about-us" style="text-decoration: underline; color: #000000;">What We Do</a><br>
                   <a href="https://theelitecars.com/current-stock/view_all" style="text-decoration: underline; color: #000000;">Brands Housed by Elite</a><br>
                   <a href="https://theelitecars.com/elite-approved-pre-owned" style="text-decoration: underline; color: #000000;">Elite Approved</a><br>
@@ -68,41 +206,34 @@
                   <a href="https://theelitecars.com/sitemap" style="text-decoration: underline; color: #000000;">Sitemap</a>
                 </p>
               </td>
-              <td style="width:33.33%; max-width:200px; vertical-align:bottom; padding:10px;">
-                <p style="font-family: 'Barlow', sans-serif; font-size:10px;font-weight:600;line-height: 100%; margin: 0 0 10px 0;">Follow us:</p>
-                <p style=" font-size:9px;line-height:14px;margin:0;vertical-align: bottom;">
-                 
-                  <a href="https://www.facebook.com/theelitecars" style="width: 20.67px; height: 20.67px; margin-right: 3px; background-color: #000000; border-radius: 100%; display: inline-block; margin-top: 10px; text-align:center; line-height:20px; color:white; text-decoration: none;">
-                    <img src="https://mcusercontent.com/f7bb64595fc5877472bcdba04/images/8ef302fe-2d4f-8f93-7e8e-ac4bbfcdd7f5.png" alt="Facebook" width="8" style="display: inline-block; vertical-align: middle;">
-                  </a>
-                  <a href="https://www.instagram.com/theelitecars/" style="width: 20.67px; height: 20.67px; margin-right: 3px; background-color: #000000; border-radius: 100%; display: inline-block; margin-top: 10px; text-align:center; line-height:20px; color:white; text-decoration: none;">
-                    <img src="https://mcusercontent.com/f7bb64595fc5877472bcdba04/images/8a1cc06f-cc34-c253-8c50-a1f00bdebe95.png" alt="Twitter" width="8" style="display: inline-block; vertical-align: middle;">
-                  </a>
-                  <a href="https://www.linkedin.com/company/the-elite-cars/" style="width: 20.67px; height: 20.67px; margin-right: 3px; background-color: #000000; border-radius: 100%; display: inline-block; margin-top: 10px; text-align:center; line-height:20.67px; color:white; text-decoration: none;">
-                    
-
-                    <img src="https://mcusercontent.com/f7bb64595fc5877472bcdba04/images/0b4aea6a-71fb-e7d1-b395-ad22c73df140.png" alt="instagram" width="8" style="display: inline-block; vertical-align: middle;">
-                  </a>
-                  <a href="https://www.facebook.com/theelitecars" style="width: 20.67px; height: 20.67px; margin-right: 3px; background-color: #000000; border-radius: 100%; display: inline-block; margin-top: 10px; text-align:center; line-height:20.67px; color:white; text-decoration: none;">
-                   
-
-                    <img src="https://mcusercontent.com/f7bb64595fc5877472bcdba04/images/ecb61cc1-0799-f823-21b2-044930738405.png" alt="youtube" width="8" style="display: inline-block; vertical-align: middle;">
-                  </a>
-                  <a href="https://www.instagram.com/theelitecars/" style="width: 20.67px; height: 20.67px; margin-right: 3px; background-color: #000000; border-radius: 100%; display: inline-block; margin-top: 10px; text-align:center; line-height:20.67px; color:white; text-decoration: none;">
-                   
-                    <img src="https://mcusercontent.com/f7bb64595fc5877472bcdba04/images/fb8dfebd-b0e0-da6a-5b0f-530e6932c19a.png" alt="Linkedlin" width="8" style="display: inline-block; vertical-align: middle;">
-                  </a>
-                  <a href="https://www.linkedin.com/company/the-elite-cars/" style="width: 20.67px; height: 20.67px; margin-right: 3px; background-color: #000000; border-radius: 100%; display: inline-block; margin-top: 10px; text-align:center; line-height:20.67px; color:white; text-decoration: none;">
-                    
-                    <img src="https://mcusercontent.com/f7bb64595fc5877472bcdba04/images/cf2b14ae-0312-5966-c96c-bfa9a7c8457a.png" alt="Tiktok" width="8" style="display: inline-block; vertical-align: middle;">
-                  </a>
-                </p>
-                <p style="font-size:9px;line-height:14px;margin-top:10px;">
-                  <a href="https://theelitecars.com/terms-conditions" style="margin-right: 10px; border-right: 1px solid #000000; padding-right: 10px; text-decoration: underline; color: #000000;">Terms & Conditions</a>
-                  <a href="https://theelitecars.com/privacy-policy" style="text-decoration: underline; color: #000000;">Privacy Policy</a>
-                </p>
-              </td>
               
+              <!-- Social Media Column -->
+              <td class="footer-column" style="width:33.33%; max-width:200px; vertical-align:bottom; padding:10px;">
+                <div class="social-section">
+                  <p class="social-title" style="font-family: 'Barlow', sans-serif; font-size:10px;font-weight:600;line-height: 100%; margin: 0 0 10px 0;">Follow us:</p>
+                  <p class="social-icons" style="font-size:9px;line-height:14px;margin:0;vertical-align: bottom;">
+                    <a class="social-icon" href="https://www.facebook.com/theelitecars" style="width: 20.67px; height: 20.67px; margin-right: 3px; background-color: #000000; border-radius: 100%; display: inline-block; margin-top: 10px; text-align:center; line-height:20px; color:white; text-decoration: none;">
+                      <img src="https://mcusercontent.com/f7bb64595fc5877472bcdba04/images/8ef302fe-2d4f-8f93-7e8e-ac4bbfcdd7f5.png" alt="Facebook" width="8" style="display: inline-block; vertical-align: middle;">
+                    </a>
+                    <a class="social-icon" href="https://www.instagram.com/theelitecars/" style="width: 20.67px; height: 20.67px; margin-right: 3px; background-color: #000000; border-radius: 100%; display: inline-block; margin-top: 10px; text-align:center; line-height:20px; color:white; text-decoration: none;">
+                      <img src="https://mcusercontent.com/f7bb64595fc5877472bcdba04/images/8a1cc06f-cc34-c253-8c50-a1f00bdebe95.png" alt="Instagram" width="8" style="display: inline-block; vertical-align: middle;">
+                    </a>
+                    <a class="social-icon" href="https://www.linkedin.com/company/the-elite-cars/" style="width: 20.67px; height: 20.67px; margin-right: 3px; background-color: #000000; border-radius: 100%; display: inline-block; margin-top: 10px; text-align:center; line-height:20.67px; color:white; text-decoration: none;">
+                      <img src="https://mcusercontent.com/f7bb64595fc5877472bcdba04/images/0b4aea6a-71fb-e7d1-b395-ad22c73df140.png" alt="LinkedIn" width="8" style="display: inline-block; vertical-align: middle;">
+                    </a>
+                    <a class="social-icon" href="https://www.youtube.com/theelitecars" style="width: 20.67px; height: 20.67px; margin-right: 3px; background-color: #000000; border-radius: 100%; display: inline-block; margin-top: 10px; text-align:center; line-height:20.67px; color:white; text-decoration: none;">
+                      <img src="https://mcusercontent.com/f7bb64595fc5877472bcdba04/images/ecb61cc1-0799-f823-21b2-044930738405.png" alt="YouTube" width="8" style="display: inline-block; vertical-align: middle;">
+                    </a>
+                    <a class="social-icon" href="https://www.tiktok.com/@theelitecars" style="width: 20.67px; height: 20.67px; margin-right: 3px; background-color: #000000; border-radius: 100%; display: inline-block; margin-top: 10px; text-align:center; line-height:20.67px; color:white; text-decoration: none;">
+                      <img src="https://mcusercontent.com/f7bb64595fc5877472bcdba04/images/fb8dfebd-b0e0-da6a-5b0f-530e6932c19a.png" alt="TikTok" width="8" style="display: inline-block; vertical-align: middle;">
+                    </a>
+                  </p>
+                  <p class="footer-links" style="font-size:9px;line-height:14px;margin-top:10px;">
+                    <a href="https://theelitecars.com/terms-conditions" style="margin-right: 10px; border-right: 1px solid #000000; padding-right: 10px; text-decoration: underline; color: #000000;">Terms & Conditions</a>
+                    <a href="https://theelitecars.com/privacy-policy" style="text-decoration: underline; color: #000000;">Privacy Policy</a>
+                  </p>
+                </div>
+              </td>
             </tr>
           </table>
         </td>
